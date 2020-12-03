@@ -92,6 +92,7 @@ footer {
     font-size: small;
     text-align: center;
     margin-top: 10vh;
+    margin-bottom: 3vh;
 }
 
 .footer {
@@ -512,6 +513,13 @@ nav a {
 
     #pagename {
         display: none;
+    }
+}
+
+@media only screen and (max-width: 396px) {
+    #pagename {
+        font-size: small;
+        font-weight: 700;
     }
 }
 
